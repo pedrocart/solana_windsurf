@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Henrique | Web Developer & React Enthusiast</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/eu_2025_sq.png" alt="Logo" class="logo-photo">
+                <a href="#home">PEDRO COSTA</a>
+            </div>
+            <nav class="main-nav">
+                <ul class="en">
+                    <li><a href="#home" class="active" data-lang-key="home">HOME</a></li>
+                    <li><a href="#skills" data-lang-key="skills">SKILLS</a></li>
+                    <li><a href="#projects" data-lang-key="projects">PROJECTS</a></li>
+                    <li><a href="#footer" data-lang-key="contact">CONTACT</a></li>
+                </ul>
+                <ul class="pt-br active">
+                    <li><a href="#home" class="active" data-lang-key="home">HOME</a></li>
+                    <li><a href="#skills" data-lang-key="skills">HABILIDADES</a></li>
+                    <li><a href="#projects" data-lang-key="projects">PROJETOS</a></li>
+                    <li><a href="#footer" data-lang-key="contact">CONTATO</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <button class="language-btn pt-br active" data-lang="pt-br">PT-BR</button>
+                <button class="language-btn en" data-lang="en">EN</button>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    
+    <section id="home" class="hero">
+        <!-- Hero Section EN -->
+        <div class="hero-content en">
+            <h1 class="hero-title typing-text" >Web Developer & Front-End Developer</h1>
+            <p class="hero-subtitle" >Creating beautiful, functional and responsive web experiences</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary" >View My Work</a>
+                <a href="#contact" class="btn btn-secondary" >Get in Touch</a>
+            </div>
+            <div class="code-block">
+                <div class="coding-header" style="font-size: 15px;">                    
+                    <span class="variable">const</span> <span class="keyword">developer</span> = <span class="function">{</span> <br />
+                        <span class="keyword">skills</span>: <span class="openings">[</span><span class="string">'HTML', 'CSS', 'JavaScript', 'WordPress', 'React.js'</span><span class="openings">]</span>, <br />
+                        <span class="keyword">currentRole</span>: <span class="string">'Web Developer, Front-End Developer'</span>, <br />
+                        <span class="keyword">currentJob</span>: <span class="string">'Looking for a full-time position'</span>, <br />
+                        <span class="keyword">nextSteps</span>: <span class="openings">[</span> <br />
+                            <span class="string">'Continuing to learn and grow as a developer'</span>, <br />
+                            <span class="string">'Building more complex and interactive web applications'</span>, <br />
+                            <span class="string">'Exploring new technologies and frameworks'</span>, <br />
+                            <span class="string">'Learning React.js and then React Native'</span>, <br />
+                        <span class="openings">]</span>, <br />
+                        <span class="keyword">contact</span>: <span class="openings">{</span> <br />
+                            <span class="keyword">email</span>: <span class="string">'pedrocart@gmail.com',</span> <br />
+                            <span class="keyword">whatsapp</span>: <span class="string">'+55 19 9 9220-4004'</span>
+                        <span class="openings">}</span>, <br />
+                    <span class="openings">}</span>;                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Section PT-BR -->
+        <div class="hero-content pt-br active">
+            <h1 class="hero-title" >Desenvolvedor Web & Desenvolvedor Front-End</h1>
+            <p class="hero-subtitle" >Criando experiências web bonitas, funcionais e responsivas</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary" >Ver Meu Trabalho</a>
+                <a href="#contact" class="btn btn-secondary" >Entrar em Contato</a>
+            </div>
+            <div class="code-block">
+                <div class="coding-header" style="font-size: 15px;">                    
+                    <span class="variable">const</span> <span class="keyword">developer</span> = <span class="function">{</span> <br />
+                        <span class="keyword">skills</span>: <span class="openings">[</span><span class="string">'HTML', 'CSS', 'JavaScript', 'WordPress', 'React.js'</span><span class="openings">]</span>, <br />
+                        <span class="keyword">currentRole</span>: <span class="string">'Desenvolvedor Web, Desenvolvedor Front-End'</span>, <br />
+                        <span class="keyword">currentJob</span>: <span class="string">'Buscando uma posição full-time'</span>, <br />
+                        <span class="keyword">nextSteps</span>: <span class="openings">[</span> <br />
+                            <span class="string">'Continuar a aprender e crescer como desenvolvedor'</span>, <br />
+                            <span class="string">'Construir aplicações web mais complexas e interativas'</span>, <br />
+                            <span class="string">'Explorar novas tecnologias e frameworks'</span>, <br />
+                            <span class="string">'Aprender React.js e depois React Native'</span>, <br />
+                        <span class="openings">]</span>, <br />
+                        <span class="keyword">contact</span>: <span class="openings">{</span> <br />
+                            <span class="keyword">email</span>: <span class="string">'pedrocart@gmail.com',</span> <br />
+                            <span class="keyword">whatsapp</span>: <span class="string">'+55 19 9 9220-4004'</span>
+                        <span class="openings">}</span>, <br />
+                    <span class="openings">}</span>;                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div style="clear: both;"></div>
+
+    
+    <section id="skills" class="skills">
+        <!-- Skills Section EN -->
+        <div class="container en">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">Technical Competencies & Areas of Specialization</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <p>
+                        Modern semantic HTML structures and best practices.
+                    </p>
+                    <p>
+                        SEO optimization with meta tags and proper attributes ensuring your content is designed to be inclusive and accessible for everyone.
+                    </p>
+                    <div class="skill-level">                        
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Expert</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <p>
+                        Knowledge of Mobile First design and advanced animations in CSS.
+                    </p>
+                    <p>
+                        Experience with Bootstrap and Flexbox.
+                    </p>
+                    <p>
+                        Studying frameworks like Tailwind CSS.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Expert</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>
+                        Extensive experience with jQuery.
+                    </p>
+                    <p>
+                        Advanced features and modern development in JavaScript.
+                    </p>
+                    <p>
+                        Studying with frameworks like React.js and Node.js.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Advanced</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <h3>WordPress</h3>
+                    <p>
+                        Solid experience with WordPress.
+                    </p>
+                    <p>
+                        Development of custom themes and plugins.
+                    </p>
+                    <p>
+                        Used as a base for many developments. I am a forever student.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Expert</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React.js</h3>
+                    <p>
+                        Componentization and State Management.
+                    </p>
+                    <p>
+                        Modern and Interactive Development.
+                    </p>
+                    <p>
+                        Still in the learning phase, completing course on <a href="https://www.udemy.com/">Udemy</a>.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 55%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Intermediate</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>
+                        Version Control and Project Management.
+                    </p>
+                    <p>
+                        Knowledge for team collaboration.
+                    </p>
+                    <p>
+                        Studying for Project Management in Web Development.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Intermediate</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <!-- <i class="fab fa-creative-commons"></i> -->
+                        <img src="img/cc.png" alt="Adobe Creative Cloud" width="41" height="30">
+                    </div>
+                    <h3>Adobe Creative Cloud</h3>
+                    <p>
+                        Broad knowledge of design tools like Photoshop, Illustrator and InDesign.
+                    </p>
+                    <p>
+                        Knowledge in video and graphic editing for social media.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Expert</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Continuous Learning</h3>
+                    <p>
+                        Continuously studying to keep up with market trends.
+                    </p>
+                    <p>
+                        Committed to always improving professional and personal growth.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Expert</span>
+                </div>
+            </div>
+        </div>
+         <!-- Skills Section PT-BR -->
+        <div class="container pt-br active">
+            <h2 class="section-title">Habilidades & Expertise</h2>
+            <p class="section-subtitle">Competências Técnicas & Áreas de Especialização</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <p>
+                        Estruturas de HTML com semânticas modernas e práticas recomendadas.
+                    </p>
+                    <p>
+                        Otimização de SEO, com tags meta e atributos apropriados garantindo que seu conteúdo seja acessível.
+                    </p>
+                    <div class="skill-level">                        
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Especialista</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <p>
+                        Conhecimentos para Desenvolver o Design Mobile First e animações avançadas em CSS.
+                    </p>
+                    <p>
+                        Experiências com Bootstrap e Flexbox.
+                    </p>
+                    <p>
+                        Estudando frameworks como Tailwind CSS.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Especialista</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>
+                        Muita experiência com jQuery.
+                    </p>
+                    <p>
+                        Funcionalidades avançadas e desenvolvimento moderno em JavaScript.
+                    </p>
+                    <p>
+                        Estudando com frameworks como React.js e Node.js.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Avançado</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <h3>WordPress</h3>
+                    <p>
+                        Sólida experiência com WordPress.
+                    </p>
+                    <p>
+                        Desenvolvimento de temas e plugins personalizados.
+                    </p>
+                    <p>
+                        Foi utilizado como base para muitos desenvolvimentos.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Especialista</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React.js</h3>
+                    <p>
+                        Componentização e Gerenciamento de Estado.
+                    </p>
+                    <p>
+                        Desenvolvimento Moderno e Interativo.
+                    </p>
+                    <p>
+                        Ainda em fase de Estudo, completando curso na <a href="https://www.udemy.com/">Udemy</a>.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 55%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Médio</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>
+                        Controle de Versão e Gerenciamento de Projetos.
+                    </p>
+                    <p>
+                        Conhecimento para colaboração em equipe.
+                    </p>
+                    <p>
+                        Estudando para Gestão de Projetos em Desenvolvimento Web.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Médio</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <!-- <i class="fab fa-creative-commons"></i> -->
+                        <img src="img/cc.png" alt="Adobe Creative Cloud" width="41" height="30">
+                    </div>
+                    <h3>Adobe Creative Cloud</h3>
+                    <p>
+                        Amplo conhecimento em ferramentas de design como Photoshop, Illustrator e InDesign.
+                    </p>
+                    <p>
+                        Conhecimento em edição de vídeos e gráficos para redes sociais.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Especialista</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <div class="skill-circle"></div>
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Aprimoramento Contínuo</h3>
+                    <p>
+                        Estudando constantemente para me manter atualizado com as tendências do mercado.
+                    </p>
+                    <p>
+                        Cometido com o desenvolvimento profissional e pessoal contínuo.
+                    </p>
+                    <div class="skill-level">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <span class="level-text">Especialista</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+
+        <!-- Projects Section EN -->
+        <div class="container en">
+
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Showcasing my technical expertise and
+                implementations</p>
+
+            <!-- Project Grid -->
+            <div class="project-grid">
+                <!-- Project 1 - React Dashboard -->
+                
+                <div class="project-item">
+                    <div class="coding-header">
+                        <p>
+                            <span class="comment">// VPJ Alimentos</span><span class="date">Maio 2014 - Agosto 2014</span><br />
+                            <span class="function">export default</span> <span class="name">adminArea</span><span class="operator">()</span> <span class="function">{</span><br />
+                                <div style="padding-left: 12px;">
+                                    <span class="variable">const</span> <span class="function">[</span><span class="keyword">developed</span>, <span class="name">setDeveloped</span><span class="function">]</span> = <span class="name">useState</span><span class="function">(</span><span class="name">1</span><span class="function">)</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">coding_design</span> = <span class="function">[</span><span class="string">'HTML', 'CSS', 'jQuery', 'WordPress'</span><span class="function">]</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">databases</span> = <span class="function">[</span><span class="string">'MySQL'</span><span class="function">]</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">company</span> = <span class="string">'Grupo VPJ'</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">has_preview</span> = <span class="name">1</span>;
+                                </div>
+                            <span class="function">}</span><br />
+                        </p>
+                    </div>
+                    <div class="project-holder">
+                        <div class="project-card">
+                            <img src="img/vpjalimentos.jpg" alt="">
+                            <div class="project-info">
+                                <div class="project-description">
+                                    <p data-lang-key="projectDashboardDesc">
+                                        Desenvolvido com WordPress, jQuery e MySQL. Utilizei WordPress para criar um tema personalizado e desenvolvi uma área administrativa para gerenciar o conteúdo do site. Utilizei Ícones para representar as funcionalidades do site e facilitar a utilização por seus administradores. Campos específicos para cadastro de produtos, categorias e configurações do site. Funções personalizadas para a área administrativa. Mobile-first Responsivo.
+                                    </p>
+                                    <br />
+                                    <p>
+                                        <span class="comment">#FullStack</span><span class="copyright string">&copy; pedrocart</span><br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 - Next.js Portfolio -->
+                <div class="project-item">
+                    <div class="coding-header">
+                        <p>
+                            <span class="comment">// Campetro</span><span class="date">Abril 2012 - Junho 2012</span><br />
+                            <span class="function">export default</span> <span class="name">adminArea</span><span class="operator">()</span> <span class="function">{</span><br />
+                                <div style="padding-left: 12px;">
+                                    <span class="variable">const</span> <span class="function">[</span><span class="keyword">developed</span>, <span class="name">setDeveloped</span><span class="function">]</span> = <span class="name">useState</span><span class="function">(</span><span class="name">1</span><span class="function">)</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">coding_design</span> = <span class="function">[</span><span class="string">'HTML', 'CSS', 'jQuery', 'WordPress'</span><span class="function">]</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">databases</span> = <span class="function">[</span><span class="string">'MySQL'</span><span class="function">]</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">company</span> = <span class="string">'Grupo VPJ'</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">has_preview</span> = <span class="name">1</span>;
+                                </div>
+                            <span class="function">}</span><br />
+                        </p>
+                    </div>
+                    <div class="project-holder">
+                        <div class="project-card">
+                            <img src="img/campetro.jpg" alt="">
+                            <div class="project-info">
+                                <div class="project-description">
+                                    <p data-lang-key="projectDashboardDesc">
+                                        Desenvolvido com WordPress, jQuery e MySQL. Utilizei WordPress para criar um tema personalizado e desenvolvi uma área administrativa para gerenciar o conteúdo do site. Utilizei Ícones para representar as funcionalidades do site e facilitar a utilização por seus administradores. Campos específicos para cadastro de produtos, categorias e configurações do site. Funções personalizadas para a área administrativa. Mobile-first Responsivo.
+                                    </p>
+                                    <br />
+                                    <p>
+                                        <span class="comment">#FullStack</span><span class="copyright string">&copy; pedrocart</span><br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 - WordPress Theme -->
+                <div class="project-item">
+                    <div class="coding-header">
+                        <p>
+                            <span class="comment">// VPJ Pecuária</span><span class="date">Agosto 2014 - Dezembro 2014</span><br />
+                            <span class="function">export default</span> <span class="name">adminArea</span><span class="operator">()</span> <span class="function">{</span><br />
+                                <div style="padding-left: 12px;">
+                                    <span class="variable">const</span> <span class="function">[</span><span class="keyword">developed</span>, <span class="name">setDeveloped</span><span class="function">]</span> = <span class="name">useState</span><span class="function">(</span><span class="name">1</span><span class="function">)</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">coding_design</span> = <span class="function">[</span><span class="string">'HTML', 'CSS', 'jQuery', 'WordPress'</span><span class="function">]</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">databases</span> = <span class="function">[</span><span class="string">'MySQL'</span><span class="function">]</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">company</span> = <span class="string">'Grupo VPJ'</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">has_preview</span> = <span class="name">1</span>;
+                                </div>
+                            <span class="function">}</span><br />
+                        </p>
+                    </div>
+                    <div class="project-holder">
+                        <div class="project-card">
+                            <img src="img/vpjpecuaria.jpg" alt="">
+                            <div class="project-info">
+                                <div class="project-description">
+                                    <p data-lang-key="projectDashboardDesc">
+                                        Desenvolvido com WordPress, jQuery e MySQL. Utilizei WordPress para criar um tema personalizado e desenvolvi uma área administrativa para gerenciar o conteúdo do site. Utilizei Ícones para representar as funcionalidades do site e facilitar a utilização por seus administradores. Campos específicos para cadastro de produtos, categorias e configurações do site. Funções personalizadas para a área administrativa. Mobile-first Responsivo.
+                                    </p>
+                                    <br />
+                                    <p>
+                                        <span class="comment">#FullStack</span><span class="copyright string">&copy; pedrocart</span><br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Projects Section PT-BR -->
+        <div class="container pt-br active">
+
+            <h2 class="section-title">Projetos</h2>
+            <p class="section-subtitle" data-lang-key="sectionSubtitle">Apresentando minhas habilidades técnicas e implementações</p>
+
+            <!-- Project Grid -->
+            <div class="project-grid">
+                <!-- Project 1 - React Dashboard -->
+                <div class="project-item">
+                    <div class="coding-header">
+                        <p>
+                            <span class="comment">// VPJ Alimentos</span><span class="date">Maio 2014 - Agosto 2014</span><br />
+                            <span class="function">export default</span> <span class="name">adminArea</span><span class="operator">()</span> <span class="function">{</span><br />
+                                <div style="padding-left: 12px;">
+                                    <span class="variable">const</span> <span class="function">[</span><span class="keyword">developed</span>, <span class="name">setDeveloped</span><span class="function">]</span> = <span class="name">useState</span><span class="function">(</span><span class="name">1</span><span class="function">)</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">coding_design</span> = <span class="function">[</span><span class="string">'HTML', 'CSS', 'jQuery', 'WordPress'</span><span class="function">]</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">databases</span> = <span class="function">[</span><span class="string">'MySQL'</span><span class="function">]</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">company</span> = <span class="string">'Grupo VPJ'</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">has_preview</span> = <span class="name">1</span>;
+                                </div>
+                            <span class="function">}</span><br />
+                        </p>
+                    </div>
+                    <div class="project-holder">
+                        <div class="project-card">
+                            <img src="img/vpjalimentos.jpg" alt="">
+                            <div class="project-info">
+                                <div class="project-description">
+                                    <p data-lang-key="projectDashboardDesc">
+                                        Desenvolvido com WordPress, jQuery e MySQL. Utilizei WordPress para criar um tema personalizado e desenvolvi uma área administrativa para gerenciar o conteúdo do site. Utilizei Ícones para representar as funcionalidades do site e facilitar a utilização por seus administradores. Campos específicos para cadastro de produtos, categorias e configurações do site. Funções personalizadas para a área administrativa. Mobile-first Responsivo.
+                                    </p>
+                                    <br />
+                                    <p>
+                                        <span class="comment">#FullStack</span><span class="copyright string">&copy; pedrocart</span><br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 - Next.js Portfolio -->
+                <div class="project-item">
+                    <div class="coding-header">
+                        <p>
+                            <span class="comment">// Campetro</span><span class="date">Abril 2012 - Junho 2012</span><br />
+                            <span class="function">export default</span> <span class="name">adminArea</span><span class="operator">()</span> <span class="function">{</span><br />
+                                <div style="padding-left: 12px;">
+                                    <span class="variable">const</span> <span class="function">[</span><span class="keyword">developed</span>, <span class="name">setDeveloped</span><span class="function">]</span> = <span class="name">useState</span><span class="function">(</span><span class="name">1</span><span class="function">)</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">coding_design</span> = <span class="function">[</span><span class="string">'HTML', 'CSS', 'jQuery', 'WordPress'</span><span class="function">]</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">databases</span> = <span class="function">[</span><span class="string">'MySQL'</span><span class="function">]</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">company</span> = <span class="string">'Grupo VPJ'</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">has_preview</span> = <span class="name">1</span>;
+                                </div>
+                            <span class="function">}</span><br />
+                        </p>
+                    </div>
+                    <div class="project-holder">
+                        <div class="project-card">
+                            <img src="img/campetro.jpg" alt="">
+                            <div class="project-info">
+                                <div class="project-description">
+                                    <p data-lang-key="projectDashboardDesc">
+                                        Desenvolvido com WordPress, jQuery e MySQL. Utilizei WordPress para criar um tema personalizado e desenvolvi uma área administrativa para gerenciar o conteúdo do site. Utilizei Ícones para representar as funcionalidades do site e facilitar a utilização por seus administradores. Campos específicos para cadastro de produtos, categorias e configurações do site. Funções personalizadas para a área administrativa. Mobile-first Responsivo.
+                                    </p>
+                                    <br />
+                                    <p>
+                                        <span class="comment">#FullStack</span><span class="copyright string">&copy; pedrocart</span><br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 - WordPress Theme -->
+                <div class="project-item">
+                    <div class="coding-header">
+                        <p>
+                            <span class="comment">// VPJ Pecuária</span><span class="date">Agosto 2014 - Dezembro 2014</span><br />
+                            <span class="function">export default</span> <span class="name">adminArea</span><span class="operator">()</span> <span class="function">{</span><br />
+                                <div style="padding-left: 12px;">
+                                    <span class="variable">const</span> <span class="function">[</span><span class="keyword">developed</span>, <span class="name">setDeveloped</span><span class="function">]</span> = <span class="name">useState</span><span class="function">(</span><span class="name">1</span><span class="function">)</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">coding_design</span> = <span class="function">[</span><span class="string">'HTML', 'CSS', 'jQuery', 'WordPress'</span><span class="function">]</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">databases</span> = <span class="function">[</span><span class="string">'MySQL'</span><span class="function">]</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">company</span> = <span class="string">'Grupo VPJ'</span>;<br />
+                                    <span class="variable">const</span> <span class="variable">has_preview</span> = <span class="name">1</span>;
+                                </div>
+                            <span class="function">}</span><br />
+                        </p>
+                    </div>
+                    <div class="project-holder">
+                        <div class="project-card">
+                            <img src="img/vpjpecuaria.jpg" alt="">
+                            <div class="project-info">
+                                <div class="project-description">
+                                    <p data-lang-key="projectDashboardDesc">
+                                        Desenvolvido com WordPress, jQuery e MySQL. Utilizei WordPress para criar um tema personalizado e desenvolvi uma área administrativa para gerenciar o conteúdo do site. Utilizei Ícones para representar as funcionalidades do site e facilitar a utilização por seus administradores. Campos específicos para cadastro de produtos, categorias e configurações do site. Funções personalizadas para a área administrativa. Mobile-first Responsivo.
+                                    </p>
+                                    <br />
+                                    <p>
+                                        <span class="comment">#FullStack</span><span class="copyright string">&copy; pedrocart</span><br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <!-- Footer EN -->
+        <div class="container en">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PEDRO COSTA</h3>
+                    <p>
+                        <span class="string">Pedro Henrique Junqueira Barbosa Costa</span>, a passionate and skilled web developer with a solid background in web development. With a focus on creating innovative and functional solutions, Pedro brings a unique combination of technical expertise and creative vision to each project. Bachelor in Design with a specialization in Game Planning and Development. 
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>CONTACTS</h3>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope" style="position:relative; left: 3px;"></i>
+                            <p>pedrocart@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp" style="position:relative; left: 4px;"></i>
+                            <p>+55 19 9 9220-4004</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt" style="position:relative; left: 5px;"></i>
+                            <p>Ouro Fino, MG and Campinas, SP - Remote</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>LINKS</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitch"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 <p>Pedro Henrique Junqueira Barbosa Costa. All rights reserved. Made with <i class="fas fa-heart"></i> in WindSurf IDE for testing purposes. See the Bootstrap version <a href="#">here</a>.</p>
+            </div>
+        </div>
+        <!-- Footer PT-BR -->
+        <div class="container pt-br active">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PEDRO COSTA</h3>
+                    <p>
+                        <span class="string">Pedro Henrique Junqueira Barbosa Costa</span>, um desenvolvedor web apaixonado e habilidoso com um background sólido em desenvolvimento web. Com um foco em criar soluções inovadoras e funcionais, Pedro traz uma combinação única de expertise técnica e visão criativa para cada projeto. Bacharel em Design com especialização em Desenvolvimento e Planejamento de Jogos. 
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>CONTATOS</h3>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope" style="position:relative; left: 3px;"></i>
+                            <p>pedrocart@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp" style="position:relative; left: 4px;"></i>
+                            <p>+55 19 9 9220-4004</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt" style="position:relative; left: 5px;"></i>
+                            <p>Ouro Fino, MG and Campinas, SP - Remote</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>LINKS</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitch"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 <p>Pedro Henrique Junqueira Barbosa Costa. Todos os direitos reservados. Feito com <i class="fas fa-heart"></i> no WindSurf IDE para fins de testes. Veja a versão do Bootstrap <a href="#">aqui</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language.js"></script>
+    <script src="js/mobile-nav.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
