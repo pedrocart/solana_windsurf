@@ -715,7 +715,7 @@ DESTAQUE
 }
 
 #destaque .destaque-logo {
-    padding: 10px 20px 19px 20px;
+    padding: 10px 20px 40px 20px;
     float: left;
 }
 
@@ -727,6 +727,7 @@ DESTAQUE
     font-size: 24px;
     font-weight: 700;
     color: #333;
+    margin-bottom: 10px;
 }
 
 #destaque .destaque-area p {
